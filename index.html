@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Leelavathy D – AI & Data Science Portfolio</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Instrument+Sans:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#f3f7f6;--surface:#ffffff;--ink:#12302f;--muted:#4d6665;--line:#cfdedb;--accent:#0b7a75;--accent2:#e0674a;--on-accent:#ffffff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1f1e;--surface:#163130;--ink:#e6f1ef;--muted:#9bb5b2;--line:#27494730;--accent:#5fd0c6;--accent2:#ff9a7e;--on-accent:#0e1f1e}}
+:root[data-theme="dark"]{--bg:#0e1f1e;--surface:#163130;--ink:#e6f1ef;--muted:#9bb5b2;--line:#274947;--accent:#5fd0c6;--accent2:#ff9a7e;--on-accent:#0e1f1e}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1rem/1.65 "Instrument Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","Instrument Sans",system-ui,sans-serif;line-height:1.15;margin:0}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent2);outline-offset:2px}
+.wrap{max-width:860px;margin:0 auto;padding:0 1.25rem}
+nav{display:flex;gap:1.25rem;flex-wrap:wrap;padding:1rem 0;font-weight:500}
+nav a{color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--accent)}
+.hero{display:grid;grid-template-columns:1.2fr 1fr;gap:1.5rem;align-items:center;padding:2rem 0 3rem}
+.hero h1{font-size:clamp(2.3rem,7vw,3.8rem);font-weight:700;letter-spacing:-.02em}
+.role{font-size:1.15rem;color:var(--accent);font-weight:600;margin:.6rem 0 1rem}
+.hero p{color:var(--muted);max-width:46ch;margin:0 0 1.4rem}
+.btns{display:flex;gap:.7rem;flex-wrap:wrap}
+.btn{display:inline-block;padding:.65rem 1.15rem;border-radius:999px;font-weight:600;text-decoration:none;border:2px solid var(--accent)}
+.btn.main{background:var(--accent);color:var(--on-accent)}
+.btn.alt{color:var(--accent)}
+.graph{width:100%;height:auto}
+.graph line{stroke:var(--line);stroke-width:2}
+.graph .n{fill:var(--accent)}
+.graph .m{fill:var(--accent2)}
+.graph circle{stroke:var(--bg);stroke-width:3}
+section{padding:2.5rem 0;border-top:1px solid var(--line)}
+section>h2{font-size:1.7rem;margin-bottom:1.25rem}
+.proj{display:grid;gap:1rem}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1.25rem 1.35rem}
+.card h3{font-size:1.2rem;margin-bottom:.4rem}
+.card p{margin:.2rem 0 .8rem;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:.4rem;margin:0;padding:0;list-style:none}
+.tags li{font-size:.85rem;padding:.15rem .65rem;border-radius:999px;background:var(--bg);border:1px solid var(--line)}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+.skills h3{font-size:1rem;margin-bottom:.5rem}
+.row{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.row b{font-weight:600}
+.row span{color:var(--muted)}
+.list{margin:.5rem 0 0;padding-left:1.2rem;color:var(--muted)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+footer{padding:2.5rem 0 3rem;border-top:1px solid var(--line)}
+footer h2{font-size:1.7rem;margin-bottom:.6rem}
+footer p{color:var(--muted);margin:0 0 1.2rem}
+@media (max-width:640px){.hero{grid-template-columns:1fr;padding-top:1rem}.graph{max-width:260px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Sections"><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact">Contact</a></nav>
+
+<header class="hero">
+<div>
+<h1>Leelavathy D</h1>
+<div class="role">B.Tech AI &amp; Data Science student · Coimbatore</div>
+<p>I build full-stack web apps and AI-powered tools, from graph neural networks to procurement platforms. I’m looking for an internship where I can ship real features and keep learning.</p>
+<div class="btns">
+<a class="btn main" href="#projects">See my projects</a>
+<a class="btn alt" href="mailto:leelavathyd28@gmail.com">Email me</a>
+</div>
+</div>
+<svg class="graph" viewBox="0 0 300 260" role="img" aria-label="Decorative network graph of connected nodes">
+<g><line x1="60" y1="60" x2="150" y2="110"/><line x1="150" y1="110" x2="250" y2="50"/><line x1="150" y1="110" x2="90" y2="200"/><line x1="150" y1="110" x2="230" y2="170"/><line x1="90" y1="200" x2="230" y2="170"/><line x1="250" y1="50" x2="230" y2="170"/><line x1="60" y1="60" x2="90" y2="200"/></g>
+<circle class="n" cx="60" cy="60" r="14"/><circle class="m" cx="150" cy="110" r="22"/><circle class="n" cx="250" cy="50" r="12"/><circle class="n" cx="90" cy="200" r="16"/><circle class="m" cx="230" cy="170" r="13"/>
+</svg>
+</header>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="proj">
+<article class="card">
+<h3>ProcureFlow – Procurement Workflow Automation</h3>
+<p>Full-stack procurement platform with role-based login, configurable approval workflows, automated state transitions, vendor management, purchase order generation and invoice management.</p>
+<ul class="tags"><li>Java</li><li>Spring Boot</li><li>React.js</li><li>PostgreSQL</li><li>Spring Security (JWT)</li><li>JPA/Hibernate</li></ul>
+</article>
+<article class="card">
+<h3>AI-Driven Framework for Predicting Biotransformation by Human Microbiomes</h3>
+<p>Web app that predicts how gut bacteria and microbial enzymes transform pharmaceutical compounds, powered by a Heterogeneous Graph Neural Network.</p>
+<ul class="tags"><li>React.js</li><li>FastAPI</li><li>Python</li><li>Graph Neural Networks</li></ul>
+</article>
+<article class="card">
+<h3>AI Interior Designer</h3>
+<p>Web app that generates interior design images from user input, with style customization and an image generation workflow.</p>
+<ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Python</li></ul>
+</article>
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills">
+<div class="card"><h3>Programming</h3><ul class="tags"><li>Java</li><li>Python</li><li>C</li></ul></div>
+<div class="card"><h3>Software development</h3><ul class="tags"><li>OOP</li><li>Spring Boot</li><li>REST APIs</li><li>React.js</li><li>JPA/Hibernate</li></ul></div>
+<div class="card"><h3>Data science and ML</h3><ul class="tags"><li>NumPy</li><li>Pandas</li><li>Matplotlib</li><li>Scikit-Learn</li><li>GNNs</li><li>LLM integration</li></ul></div>
+<div class="card"><h3>Fundamentals</h3><ul class="tags"><li>Data Structures &amp; Algorithms</li><li>DBMS</li></ul></div>
+</div>
+</section>
+
+<section id="experience">
+<h2>Experience and certificates</h2>
+<div class="two">
+<div class="card">
+<h3>AI &amp; ML Intern</h3>
+<div class="row"><b>NextSkill Technologies Pvt. Ltd.</b><span>15 days</span></div>
+<ul class="list"><li>Learned the basics of AI and machine learning.</li><li>Worked on practical AI/ML concepts and a mini project.</li><li>Built a Smart Billing System as the internship project.</li></ul>
+</div>
+<div class="card">
+<h3>Certificates</h3>
+<ul class="list"><li>Data Structures and Algorithms Design, NPTEL</li><li>Human Computer Interaction, NPTEL</li><li>JavaScript Training, Spoken Tutorial</li><li>Full Stack with Python and Django, Pinesphere Solutions</li></ul>
+</div>
+</div>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+<div class="card">
+<div class="row"><h3>B.Tech, Artificial Intelligence and Data Science</h3><span>2024 – present</span></div>
+<p style="margin-bottom:0">Dr. N.G.P. Institute of Technology, Coimbatore · CGPA 9.18</p>
+</div>
+</section>
+
+<footer id="contact">
+<h2>Let’s talk</h2>
+<p>Open to internships and entry-level roles in full-stack development and AI/ML.</p>
+<div class="btns">
+<a class="btn main" href="mailto:leelavathyd28@gmail.com">leelavathyd28@gmail.com</a>
+<a class="btn alt" href="https://github.com/Leela-28d" target="_blank" rel="noopener">GitHub</a>
+<a class="btn alt" href="https://linkedin.com/in/leelavathy-d-897786326" target="_blank" rel="noopener">LinkedIn</a>
+</div>
+</footer>
+</div>
+</body>
+</html>
